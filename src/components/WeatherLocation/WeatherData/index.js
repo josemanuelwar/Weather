@@ -1,14 +1,10 @@
 import React from 'react';
 import WeatherExtraInfo from './WeatherExtraInfo';
 import WeatherTemperature from './WeatherTemperature';
+
 import {
-    CLOUD,
     CLOUDY,
-    SUNNY,
-    RAIN,
-    SNOW,
-    WINDAY,
-} from './../constants/weather';
+} from './../../../constants/weather';
 const WeatherData =()=>(
     <div>
         <WeatherTemperature
