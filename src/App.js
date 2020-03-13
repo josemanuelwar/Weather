@@ -9,7 +9,7 @@ class App extends Component {
           <WeatherLocation/>
      </div>
    );
- } 
+ }
 }
 
 export default App;
